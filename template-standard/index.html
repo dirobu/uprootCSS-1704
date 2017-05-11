@@ -1,1 +1,127 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Web Development Make Possible">
+<meta name="author" content="uprootCSS-1704 Template:Standard">
+<title>UprootCSS-1704 Template: Standard</title>
+<link rel="stylesheet" href="css/uprootCSS-1704-colors.css">
+<link rel="stylesheet" href="css/uprootCSS-1704-elements.css">
+<link rel="stylesheet" href="css/uprootCSS-1704-elements.css">
+<link rel="stylesheet" href="css/uprootCSS-1704-grid.css">
+<link href="fonts/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<style>
+	#header div {padding: 10px 0px 10px 0px;}
+	#header #title-l {text-align: left;}
+	#header #title-r {text-align: right;}
+	
+	#impact div a{padding: 10px;}
+	#impact #image {
+		min-height: 340px;
+		/* https://www.pexels.com/photo/apple-coffee-computer-desk-356056/ */
+		background-image: url("img/pexels-photo-356056.jpeg");
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+	}
+	@media (max-width: 800px){
+		#header #title-l, #header #title-r {text-align: center;}
+		#header #nav a {padding: 10px 0px 10px 0px;}
+	}
+	.icon-md{height: 60px; width: 60px;}
+	.icon-lg{height: 100px; width: 100px;}
+	.spacer {padding: 20px 0px 20px 0px;}
+	i{width: 20px; text-align: center;}
+</style>
+</head>
+<body class="wide text-center">
+	<div id="header" class="wide back-coal">
+		<div id="title-l" class="xs-12 sm-12 md-6 lg-4 xl-4 text-grey">
+			<h1>UprootCSS-1704</h1>
+			<small>Template: Standard</small>
+		</div>
+		<div id="title-r" class="xs-12 sm-12 md-6 lg-4 xl-4">
+			<h2><input type="text" placeholder="Search..."><button><i class="fa fa-search" aria-hidden="true"></i></button></h2>
+		</div>
+		<div id="nav" class="xs-0 sm-0 md-0 lg-8 xl-8 back-black">
+			<a href="#" title="" class="xs-12 sm-12 md-12 lg-2 xl-2 text-grey">Link 1</a>
+			<a href="#" title="" class="xs-12 sm-12 md-12 lg-2 xl-2 text-grey">Link 2</a>
+			<a href="#" title="" class="xs-12 sm-12 md-12 lg-2 xl-2 text-grey">Link 3</a>
+			<a href="#" title="" class="xs-12 sm-12 md-12 lg-2 xl-2 text-grey">Link 4</a>
+			<a href="#" title="" class="xs-12 sm-12 md-12 lg-2 xl-2 text-grey">Link 5</a>
+		</div>
+	</div>
 
+	<div id="impact" class="xs-12 sm-12 md-12 lg-8 xl-8 back-cloud">
+		<div class="xs-12 sm-12 md-5 lg-5 xl-4 spacer">
+			<h3 class="text-orange">Template: Standard</h3>
+			<p class="text-left text-black">
+				This template, works with 5 different screen sizes!
+				Test it out in developer mode, by changing screen sizes.
+			</p>
+			<p class="text-left text-grey">
+				Click the button below, to check out scene(); A javascript function that allows you to control your popups!			
+			</p>
+			<a class="text-orange" onclick="scene('name','html');">
+				Read More
+			</a>
+		</div><div id="image" class="xs-12 sm-12 md-7 lg-7 xl-8"></div>
+	</div>
+
+	<div id="1" class="xs-12 sm-12 md-12 lg-8 xl-8 text-grey spacer">
+		<div class="xs-12 sm-12 md-5 lg-5 xl-4">
+			<h3>Validations and Certificates</h3>
+			<p class="text-right">
+				HTML - <span style="display: inline-block; width: 120px; text-align: left;">No errors</span><br>
+				CSS - <span style="display: inline-block; width: 120px; text-align: left;">Level 3 Valid</span><br>
+				JS - <span style="display: inline-block; width: 120px; text-align: left;">No Frameworks</span><br>
+			</p>
+		</div><div class="xs-12 sm-12 md-7 lg-7 xl-8">
+			<br>
+			<a href="https://validator.w3.org/" target="_blank"><img class="icon-md" src="img/html.png" alt="html validation"></a>
+			<a href="http://jigsaw.w3.org/css-validator/check/referer" target="_blank"><img class="icon-md" src="img/css.png" alt="css validation"></a>
+			<a href="http://javascript.com" target="_blank"><img class="icon-md" src="img/js.png" alt="vanilla javascript"></a>
+			<a href="#" target="_blank"><img class="icon-md" src="img/file.png" alt="#"></a>
+			<!--http://www.iconninja.com/css-icon-777124-->
+		</div>
+	</div>
+
+	<hr>
+
+	<div id="2" class="wide spacer">
+		<div class="xs-12 sm-12 md-6 lg-3 xl-3">
+			<img class="icon-lg" src="img/defaultprofile.png" alt="profile picture" style="margin-top: 10px;">
+		</div><div class="xs-12 sm-12 md-6 lg-3 xl-3">
+			<h3 class="text-orange">About</h3>
+			<p class="text-left text-orange">
+				<a href="#"><i class="fa fa-envelope-open" aria-hidden="true"></i> JohnDoe@email.com</a><br>
+				<a href="#"><i class="fa fa-phone" aria-hidden="true"></i> 0-000-0000</a><br>
+				<a href="#"><i class="fa fa-address-card" aria-hidden="true"></i> More Info</a><br>
+			</p>
+		</div><div class="xs-12 sm-12 md-6 lg-3 xl-3">
+			<h3 class="text-green">News</h3>
+			<p class="text-left text-green">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ut arcu dictum, lacinia lorem sagittis, gravida magna.</p>
+		</div><div class="xs-12 sm-12 md-6 lg-3 xl-3">
+			<h3 class="text-blue">Trending</h3>
+			<p class="text-left text-blue">
+				<a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i>Praesent phatra massa...</a><br>
+				<a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i>Ante ultrices quism...</a><br>
+				<a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i>Nisi risus lacus vel...</a><br>
+				<a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i>Risus et purus felis...</a><br>
+			</p>
+		</div>
+	</div>
+
+	<div id="footer" class="wide back-black spacer">
+		<p class="text-white">
+			<a href="http://dirobu.com" target="_blank">Dirobu</a> - <a href="http://dirobu.com/#dirobu/frameworks/uprootCSS-1704" target="_blank">UprootCSS-1704</a> - <a href="https://github.com/dirobu/uprootCSS-1704" target="_blank">Github</a>
+		</p>
+	</div>
+</body>
+<script src="js/uprootCSS-1704.js"></script>
+<script src="js/scene-1702.min.js"></script>
+</html>
