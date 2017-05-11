@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Web Development Make Possible">
+<meta name="author" content="Dirobu">
+<title>uprootCSS-1704</title>
+
+<link rel="stylesheet" href="css/uprootCSS-1704-colors.css">
+<link rel="stylesheet" href="css/uprootCSS-1704-elements.css">
+<link rel="stylesheet" href="css/uprootCSS-1704-elements.css">
+<link rel="stylesheet" href="css/uprootCSS-1704-grid.css">
+</head>
+<body class="back-grey" onresize="menuSizeDesktop()">
+<script>
+	function menuSizeDesktop(){
+		var d = document.getElementById('menu');
+			d.className = 'xs-0 sm-0 md-4 lg-3 xl-2 back-white text-left tall';
+	}
+	function menuSizeMobile(){
+		var d = document.getElementById('menu');
+		if(d.classList.contains('xs-12')){menuSizeDesktop();}
+		else{d.className = 'xs-12 sm-12 md-12 lg-12 xl-12 back-white text-left';}
+	}
+</script>
+<div id="nav" onclick="menuSizeMobile();" class="wide back-white text-left" style="height: 40px; border-style: solid; border-width: 0px; border-bottom-width: 1px; border-bottom-color: #999;">
+	<div class="disp-left xs-1 sm-1 md-0 lg-0 xl-0"><img src="https://www.materialui.co/materialIcons/navigation/menu_grey_192x192.png" style="height: 30px; margin-top: 5px;"></div>
+	<img src="https://www.youtube.com/yt/brand/media/image/YouTube-logo-full_color.png" class="disp-left" style="height: 50px; margin-top: -5px;">
+	<input type="text" placeholder="keywords" style="height: 30px; margin-top: 5px;"><button style="height: 30px; margin-top: 5px;">Search</button>
+</div>
+<div id="menu" class="xs-0 sm-0 md-4 lg-3 xl-2 back-white text-left tall">
+	<h3>Home</h3>
+	<h3>My channel</h3>
+	<h3>Trending</h3>
+	<h3>Subscriptions</h3>
+	<h3>Get YouTube Red</h3>
+	<h3>Get YouTube Tv</h3>
+	<hr>
+	<h3>History</h3>
+	<h3>Watch Later</h3>
+	<h3>Favorites</h3>
+	<hr>
+</div><!--
+--><div class="xs-12 sm-12 md-10 lg-8 xl-6">
+	View the left menu when you change the screen size and how it menu button interacts with it.
+	<br>
+	Uses half the css as youtube.
+</div>
+
+</body>
+</html>
